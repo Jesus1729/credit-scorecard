@@ -6,6 +6,7 @@ Este proyecto construye un **scorecard de crédito** utilizando el dataset de pa
 
 ## Estructura del proyecto
 
+```
 scorecard_proyecto/
 │
 ├─ data/
@@ -18,19 +19,20 @@ scorecard_proyecto/
 │
 ├─ outputs/
 │ ├─ figures/ # Gráficos generados (ROC, distribución de scores)
-│ └─ ivr.csv (Tabla generada IVR)
-| └─ scorecard.csv (Tabla generada scorecard)
+│ ├─ ivr.csv # Tabla generada IVR
+│ └─ scorecard.csv # Tabla generada scorecard
 │
 ├─ scorecard_project.py # Script principal
-└─ README.md 
+└─ README.md
+```
 
 ## Uso
 
 Ejecuta el script principal:
 
-´´´
+```
 python scorecard_project.py
-´´´
+```
 
 Esto realizará:
 
